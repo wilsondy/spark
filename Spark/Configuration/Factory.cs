@@ -33,7 +33,7 @@ namespace Spark.Support
         {
             var localhost = new Localhost();
             localhost.Add(Settings.Endpoint, _default: true);
-            localhost.Add("http://hl7.org/fhir/");
+            //localhost.Add("http://hl7.org/fhir/");
             localhost.Add("localhost");
             localhost.Add("localhost.");
             return localhost;
