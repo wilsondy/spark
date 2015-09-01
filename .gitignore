@@ -4,7 +4,8 @@
 *.suo
 *.user
 *.sln.docstates
-*.nuspec
+.nuget/
+[Pp]ackages.dgml
 # Build results
 [Dd]ebug/
 [Rr]elease/
@@ -13,6 +14,7 @@ build/
 [Bb]in/
 [Oo]bj/
 packages/
+.vs/
 *.ide
 # Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
 !packages/*/build/
@@ -128,3 +130,4 @@ $RECYCLE.BIN/
 # Mac desktop service store files
 .DS_Store
 *.snk
+*.nupkg

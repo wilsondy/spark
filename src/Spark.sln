@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDT.FHIR.Couch", "..\..\bdt-fhir-couch\BDT.FHIR.Couch\BDT.FHIR.Couch.csproj", "{6E73A5EC-A8A3-4650-8561-78696E5E9C3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDT.FHIR.Couch.Test", "..\..\bdt-fhir-couch\BDT.FHIR.Couch.Test\BDT.FHIR.Couch.Test.csproj", "{7E22E211-9A07-486D-A7F4-6BE02BEEE068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark", "Spark\Spark.csproj", "{C3CB4C64-C694-4374-B816-65E8439102D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.Engine", "Spark.Engine\Spark.Engine.csproj", "{7414D50E-AF38-4501-A59A-054A3173F893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.Mongo", "Spark.Mongo\Spark.Mongo.csproj", "{557A68B1-39E9-413D-B571-CC1D73E43438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartIDM.VS", "..\..\bdt.idm.mobile\SmartIDM.VS\SmartIDM.VS.csproj", "{FA9B6348-2214-433A-A096-099903526677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDT.Mobile", "..\..\bdt.mobile\BDT.Mobile\BDT.Mobile.csproj", "{D0F35CEB-3855-4C1A-B3E8-DEF62CB395F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartIDM.Test.VS", "..\..\bdt.idm.mobile\SmartIDM.Test.VS\SmartIDM.Test.VS.csproj", "{58323913-491F-44D0-AF32-23EE034B82CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		FhirLab.AppHarbor|Any CPU = FhirLab.AppHarbor|Any CPU
+		Fhirlab|Any CPU = Fhirlab|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E73A5EC-A8A3-4650-8561-78696E5E9C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E73A5EC-A8A3-4650-8561-78696E5E9C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E73A5EC-A8A3-4650-8561-78696E5E9C3C}.FhirLab.AppHarbor|Any CPU.ActiveCfg = Release|Any CPU
+		{6E73A5EC-A8A3-4650-8561-78696E5E9C3C}.FhirLab.AppHarbor|Any CPU.Build.0 = Release|Any CPU
+		{6E73A5EC-A8A3-4650-8561-78696E5E9C3C}.Fhirlab|Any CPU.ActiveCfg = Release|Any CPU
+		{6E73A5EC-A8A3-4650-8561-78696E5E9C3C}.Fhirlab|Any CPU.Build.0 = Release|Any CPU
+		{6E73A5EC-A8A3-4650-8561-78696E5E9C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E73A5EC-A8A3-4650-8561-78696E5E9C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E22E211-9A07-486D-A7F4-6BE02BEEE068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E22E211-9A07-486D-A7F4-6BE02BEEE068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E22E211-9A07-486D-A7F4-6BE02BEEE068}.FhirLab.AppHarbor|Any CPU.ActiveCfg = Release|Any CPU
+		{7E22E211-9A07-486D-A7F4-6BE02BEEE068}.FhirLab.AppHarbor|Any CPU.Build.0 = Release|Any CPU
+		{7E22E211-9A07-486D-A7F4-6BE02BEEE068}.Fhirlab|Any CPU.ActiveCfg = Release|Any CPU
+		{7E22E211-9A07-486D-A7F4-6BE02BEEE068}.Fhirlab|Any CPU.Build.0 = Release|Any CPU
+		{7E22E211-9A07-486D-A7F4-6BE02BEEE068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E22E211-9A07-486D-A7F4-6BE02BEEE068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3CB4C64-C694-4374-B816-65E8439102D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3CB4C64-C694-4374-B816-65E8439102D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3CB4C64-C694-4374-B816-65E8439102D1}.FhirLab.AppHarbor|Any CPU.ActiveCfg = FhirLab.AppHarbor|Any CPU
+		{C3CB4C64-C694-4374-B816-65E8439102D1}.FhirLab.AppHarbor|Any CPU.Build.0 = FhirLab.AppHarbor|Any CPU
+		{C3CB4C64-C694-4374-B816-65E8439102D1}.Fhirlab|Any CPU.ActiveCfg = Fhirlab|Any CPU
+		{C3CB4C64-C694-4374-B816-65E8439102D1}.Fhirlab|Any CPU.Build.0 = Fhirlab|Any CPU
+		{C3CB4C64-C694-4374-B816-65E8439102D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3CB4C64-C694-4374-B816-65E8439102D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7414D50E-AF38-4501-A59A-054A3173F893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7414D50E-AF38-4501-A59A-054A3173F893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7414D50E-AF38-4501-A59A-054A3173F893}.FhirLab.AppHarbor|Any CPU.ActiveCfg = Release|Any CPU
+		{7414D50E-AF38-4501-A59A-054A3173F893}.FhirLab.AppHarbor|Any CPU.Build.0 = Release|Any CPU
+		{7414D50E-AF38-4501-A59A-054A3173F893}.Fhirlab|Any CPU.ActiveCfg = Release|Any CPU
+		{7414D50E-AF38-4501-A59A-054A3173F893}.Fhirlab|Any CPU.Build.0 = Release|Any CPU
+		{7414D50E-AF38-4501-A59A-054A3173F893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7414D50E-AF38-4501-A59A-054A3173F893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{557A68B1-39E9-413D-B571-CC1D73E43438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{557A68B1-39E9-413D-B571-CC1D73E43438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{557A68B1-39E9-413D-B571-CC1D73E43438}.FhirLab.AppHarbor|Any CPU.ActiveCfg = Release|Any CPU
+		{557A68B1-39E9-413D-B571-CC1D73E43438}.FhirLab.AppHarbor|Any CPU.Build.0 = Release|Any CPU
+		{557A68B1-39E9-413D-B571-CC1D73E43438}.Fhirlab|Any CPU.ActiveCfg = Release|Any CPU
+		{557A68B1-39E9-413D-B571-CC1D73E43438}.Fhirlab|Any CPU.Build.0 = Release|Any CPU
+		{557A68B1-39E9-413D-B571-CC1D73E43438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{557A68B1-39E9-413D-B571-CC1D73E43438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA9B6348-2214-433A-A096-099903526677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9B6348-2214-433A-A096-099903526677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9B6348-2214-433A-A096-099903526677}.FhirLab.AppHarbor|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9B6348-2214-433A-A096-099903526677}.FhirLab.AppHarbor|Any CPU.Build.0 = Release|Any CPU
+		{FA9B6348-2214-433A-A096-099903526677}.Fhirlab|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9B6348-2214-433A-A096-099903526677}.Fhirlab|Any CPU.Build.0 = Release|Any CPU
+		{FA9B6348-2214-433A-A096-099903526677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9B6348-2214-433A-A096-099903526677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F35CEB-3855-4C1A-B3E8-DEF62CB395F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F35CEB-3855-4C1A-B3E8-DEF62CB395F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F35CEB-3855-4C1A-B3E8-DEF62CB395F0}.FhirLab.AppHarbor|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F35CEB-3855-4C1A-B3E8-DEF62CB395F0}.FhirLab.AppHarbor|Any CPU.Build.0 = Release|Any CPU
+		{D0F35CEB-3855-4C1A-B3E8-DEF62CB395F0}.Fhirlab|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F35CEB-3855-4C1A-B3E8-DEF62CB395F0}.Fhirlab|Any CPU.Build.0 = Release|Any CPU
+		{D0F35CEB-3855-4C1A-B3E8-DEF62CB395F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F35CEB-3855-4C1A-B3E8-DEF62CB395F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58323913-491F-44D0-AF32-23EE034B82CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58323913-491F-44D0-AF32-23EE034B82CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58323913-491F-44D0-AF32-23EE034B82CA}.FhirLab.AppHarbor|Any CPU.ActiveCfg = Release|Any CPU
+		{58323913-491F-44D0-AF32-23EE034B82CA}.FhirLab.AppHarbor|Any CPU.Build.0 = Release|Any CPU
+		{58323913-491F-44D0-AF32-23EE034B82CA}.Fhirlab|Any CPU.ActiveCfg = Release|Any CPU
+		{58323913-491F-44D0-AF32-23EE034B82CA}.Fhirlab|Any CPU.Build.0 = Release|Any CPU
+		{58323913-491F-44D0-AF32-23EE034B82CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58323913-491F-44D0-AF32-23EE034B82CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
