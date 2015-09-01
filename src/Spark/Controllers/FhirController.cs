@@ -26,7 +26,7 @@ namespace Spark.Controllers
         public FhirController()
         {
             // This will be a (injected) constructor parameter in ASP.vNext.
-            service = new FhirService(Infra.Mongo); 
+            service = new FhirService(BDT.FHIR.Couch.CouchInfrastructure.Couch); 
         }
 
         [HttpGet, Route("{type}/{id}")]

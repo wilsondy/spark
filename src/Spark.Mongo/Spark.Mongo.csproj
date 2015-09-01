@@ -36,12 +36,12 @@
     <Reference Include="AWSSDK">
       <HintPath>..\packages\AWSSDK.2.3.0.0\lib\net45\AWSSDK.dll</HintPath>
     </Reference>
-    <Reference Include="Fhir.Metrics, Version=0.9.7.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Fhir.Metrics.0.9.7\lib\net40\Fhir.Metrics.dll</HintPath>
+    <Reference Include="Fhir.Metrics, Version=0.9.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fhir.Metrics.0.9.6\lib\net40\Fhir.Metrics.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Hl7.Fhir.Core">
-      <HintPath>..\packages\Hl7.Fhir.DSTU2.0.50.2-alpha4\lib\net45\Hl7.Fhir.Core.dll</HintPath>
+    <Reference Include="Hl7.Fhir.Core, Version=0.50.2.15555, Culture=neutral, PublicKeyToken=d706911480550fc3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hl7.Fhir.DSTU2.0.50.2-alpha3\lib\net45\Hl7.Fhir.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MongoDB.Bson">
@@ -50,8 +50,8 @@
     <Reference Include="MongoDB.Driver">
       <HintPath>..\packages\mongocsharpdriver.1.9.2\lib\net35\MongoDB.Driver.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.7\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -100,6 +100,7 @@
     <Compile Include="Store\Transaction.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

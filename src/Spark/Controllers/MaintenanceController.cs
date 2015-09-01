@@ -28,8 +28,8 @@ namespace Spark.Controllers
 
         public MaintenanceController()
         {
-            FhirService fhirservice = Infra.Mongo.CreateService();
-            service = new MaintenanceService(Infra.Mongo, fhirservice);
+            FhirService fhirservice = BDT.FHIR.Couch.CouchInfrastructure.Couch.CreateService();
+            service = new MaintenanceService(BDT.FHIR.Couch.CouchInfrastructure.Couch, fhirservice);
         }
 
         public HttpResponseMessage Respond(string message)

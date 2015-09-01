@@ -29,10 +29,10 @@ namespace Spark.Hubs
 
         public InitializeHub()
         {
-            this.localhost = Infra.Mongo.Localhost;
-            this.service = Infra.Mongo.CreateService();
-            this.store = Infra.Mongo.Store;
-            this.index = Infra.Mongo.Index;
+            this.localhost = BDT.FHIR.Couch.CouchInfrastructure.Couch.Localhost;
+            this.service = BDT.FHIR.Couch.CouchInfrastructure.Couch.CreateService();
+            this.store = BDT.FHIR.Couch.CouchInfrastructure.Couch.Store;
+            this.index = BDT.FHIR.Couch.CouchInfrastructure.Couch.Index;
             this.resources = null;
         }
 
